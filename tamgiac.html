@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trang chủ</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Tam Giác</title>
+    <link rel="stylesheet" href="styletinhtoan.css" />
   </head>
   <body>
     <header>
@@ -21,10 +21,22 @@
       </nav>
     </header>
     <main>
-      <h1>Lê Quốc Bảo B2203492<b>!</b></h1>
+      <h2>Nhập thông tin các cạnh của tam giác</h2>
+      <form onsubmit="return tinhtoan(event)">
+        <label for="Canh1">Độ dài cạnh 1:</label>
+        <input type="number" id="Canh1" required /><br />
+        <label for="Canh2">Độ dài cạnh 2:</label>
+        <input type="number" id="Canh2" required /><br />
+        <label for="Canh3">Độ dài cạnh 3:</label>
+        <input type="number" id="Canh3" required /><br /><br />
+        <input type="submit" value="Tính toán" />
+      </form>
+
+      <div class="result" id="result"></div>
     </main>
     <footer>
       <p>Copyright© 2024 Trang chủ</p>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>

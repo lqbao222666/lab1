@@ -1,0 +1,49 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+  background: url(./image/anhtkb.jpg);
+  background-size: cover;
+  background-position: center;
+}
+header {
+  background-image: linear-gradient(
+    to right,
+    rgb(83, 179, 227),
+    rgb(78, 210, 170)
+  );
+  padding: 16px 0px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: white;
+  color: green;
+}
+main {
+  max-width: 900px;
+  min-height: 500px;
+  background: transparent;
+  color: slateblue;
+}
+
+footer p {
+  background-color: transparent;
+  border: 3px solid #1e1e1e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px) brightness(0.9);
+  color: palevioletred;
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 16px;
+}

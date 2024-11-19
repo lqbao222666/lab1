@@ -1,0 +1,74 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+  background: url(./image/anhtkb.jpg);
+  background-size: cover;
+  background-position: center;
+}
+header {
+  background-image: linear-gradient(
+    to right,
+    rgb(83, 179, 227),
+    rgb(78, 210, 170)
+  );
+  padding: 16px 0px;
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: white;
+  color: green;
+}
+main table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px auto;
+  max-width: 900px;
+}
+th,
+td {
+  border: 3px solid #a41010;
+  padding: 8px;
+  text-align: center;
+}
+tr {
+  background-color: transparent;
+}
+footer p {
+  background-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 3px solid #252525;
+  backdrop-filter: blur(10px) brightness(0.9);
+  color: palevioletred;
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 16px;
+}
+
+main {
+  padding: 20px;
+  margin: 16px auto;
+  max-width: 900px;
+  min-height: 900px;
+  color: palevioletred;
+  backdrop-filter: blur(10px) brightness(0.9);
+}
+.poem {
+  padding: 20px;
+  border: 1px dashed #1e1e1e;
+}
+.poem p {
+  margin: 10px 0;
+  font-size: 2rem;
+  text-align: center;
+}
